@@ -1,0 +1,48 @@
+.keypad{
+    width: 21em;
+    background-color: #292f36;
+    margin-top: 10px;
+    height: 20em;
+}
+
+.pad__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1.5em 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row div{
+    width: 3em;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #5cc8ff;
+    cursor: pointer;
+}
+
+.row button{
+    width: 3em;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #5cc8ff;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
+
+.equal{
+    align-self: center;
+}
+
+.operator{
+    color: #d63c6b !important;
+}
